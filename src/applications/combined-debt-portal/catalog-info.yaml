@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+lifecycle: production
+metadata:
+  annotations:
+    backstage.io/edit-url: https://github.com/mhaley37/vets-website/edit/master/src/applications/combined-debt-portal/catalog-info.yaml
+    backstage.io/source-location: https://github.com/mhaley37/vets-website/tree/master/src/applications/combined-debt-portal/
+    backstage.io/view-url: https://github.com/mhaley37/vets-website/blob/master/src/applications/combined-debt-portal/catalog-info.yaml
+  description: The combined-debt-portal application on vets-website
+  name: combined-debt-portal
+  tags:
+  - spa
+owner: platform-console-services
+subcomponentOf: vets-website
+type: website
