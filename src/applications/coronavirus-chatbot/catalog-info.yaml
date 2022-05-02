@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/edit-url: https://github.com/mhaley37/vets-website/edit/master/src/applications/coronavirus-chatbot/catalog-info.yaml
+    backstage.io/source-location: https://github.com/mhaley37/vets-website/tree/master/src/applications/coronavirus-chatbot/
+    backstage.io/view-url: https://github.com/mhaley37/vets-website/blob/master/src/applications/coronavirus-chatbot/catalog-info.yaml
+  description: The coronavirus-chatbot application on vets-website
+  name: coronavirus-chatbot
+  tags:
+  - spa
+spec:
+  lifecycle: production
+  owner: platform-console-services
+  subcomponentOf: vets-website
+  type: website
