@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/edit-url: https://github.com/mhaley37/vets-website/edit/main/src/applications/burials/catalog_info.yaml
+    backstage.io/source-location: url:https://github.com/mhaley37/vets-website/tree/master/src/applications/burials/
+    backstage.io/view-url: https://github.com/mhaley37/vets-website/blob/main/src/applications/burials/catalog_info.yaml
+  description: The burials application on vets-website
+  name: burials
+  tags:
+  - spa
+  title: burials
+spec:
+  lifecycle: production
+  owner: vsa-debt-frontend
+  subcomponentOf: vets-website
+  type: website
