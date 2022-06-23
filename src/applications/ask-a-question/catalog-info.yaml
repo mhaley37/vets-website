@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/edit-url: https://github.com/mhaley37/vets-website/edit/main/src/applications/ask-a-question/catalog_info.yaml
+    backstage.io/source-location: url:https://github.com/mhaley37/vets-website/tree/master/src/applications/ask-a-question/
+    backstage.io/view-url: https://github.com/mhaley37/vets-website/blob/main/src/applications/ask-a-question/catalog_info.yaml
+  description: The ask-a-question application on vets-website
+  name: ask-a-question
+  tags:
+  - spa
+  title: ask-a-question
+spec:
+  lifecycle: production
+  owner: platform-release-tools
+  subcomponentOf: vets-website
+  type: website
