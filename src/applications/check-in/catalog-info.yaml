@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/edit-url: https://github.com/mhaley37/vets-website/edit/main/src/applications/check-in/catalog_info.yaml
+    backstage.io/source-location: url:https://github.com/mhaley37/vets-website/tree/master/src/applications/check-in/
+    backstage.io/view-url: https://github.com/mhaley37/vets-website/blob/main/src/applications/check-in/catalog_info.yaml
+  description: The check-in application on vets-website
+  name: check-in
+  tags:
+  - spa
+  title: check-in
+spec:
+  lifecycle: production
+  owner: patient-check-in
+  subcomponentOf: vets-website
+  type: website
