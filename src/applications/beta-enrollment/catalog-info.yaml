@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/edit-url: https://github.com/mhaley37/vets-website/edit/main/src/applications/beta-enrollment/catalog_info.yaml
+    backstage.io/source-location: url:https://github.com/mhaley37/vets-website/tree/master/src/applications/beta-enrollment/
+    backstage.io/view-url: https://github.com/mhaley37/vets-website/blob/main/src/applications/beta-enrollment/catalog_info.yaml
+  description: The beta-enrollment application on vets-website
+  name: beta-enrollment
+  tags:
+  - spa
+  title: beta-enrollment
+spec:
+  lifecycle: production
+  owner: platform-release-tools
+  subcomponentOf: vets-website
+  type: website
