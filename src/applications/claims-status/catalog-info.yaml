@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/edit-url: https://github.com/mhaley37/vets-website/edit/main/src/applications/claims-status/catalog_info.yaml
+    backstage.io/source-location: url:https://github.com/mhaley37/vets-website/tree/master/src/applications/claims-status/
+    backstage.io/view-url: https://github.com/mhaley37/vets-website/blob/main/src/applications/claims-status/catalog_info.yaml
+  description: The claims-status application on vets-website
+  name: claims-status
+  tags:
+  - spa
+  title: claims-status
+spec:
+  lifecycle: production
+  owner: vsa-bam-1-frontend
+  subcomponentOf: vets-website
+  type: website
