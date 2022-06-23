@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/edit-url: https://github.com/mhaley37/vets-website/edit/main/src/applications/auth/catalog_info.yaml
+    backstage.io/source-location: url:https://github.com/mhaley37/vets-website/tree/master/src/applications/auth/
+    backstage.io/view-url: https://github.com/mhaley37/vets-website/blob/main/src/applications/auth/catalog_info.yaml
+  description: The auth application on vets-website
+  name: auth
+  tags:
+  - spa
+  title: auth
+spec:
+  lifecycle: production
+  owner: vsp-identity
+  subcomponentOf: vets-website
+  type: website
