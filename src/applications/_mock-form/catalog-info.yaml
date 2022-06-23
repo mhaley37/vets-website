@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/edit-url: https://github.com/mhaley37/vets-website/edit/main/src/applications/_mock-form/catalog_info.yaml
+    backstage.io/source-location: url:https://github.com/mhaley37/vets-website/tree/master/src/applications/_mock-form/
+    backstage.io/view-url: https://github.com/mhaley37/vets-website/blob/main/src/applications/_mock-form/catalog_info.yaml
+  description: The _mock-form application on vets-website
+  name: _mock-form
+  tags:
+  - spa
+  title: _mock-form
+spec:
+  lifecycle: production
+  owner: platform-release-tools
+  subcomponentOf: vets-website
+  type: website
