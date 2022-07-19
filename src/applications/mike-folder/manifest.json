@@ -1,0 +1,7 @@
+{
+  "appName": "A new mike",
+  "entryFile": "./app-entry.jsx",
+  "entryName": "my-mike-entry",
+  "rootUrl": "/to-mike-app",
+  "productId": "8e3f7357-348e-4703-a5d8-62cc55e1539e"
+}
