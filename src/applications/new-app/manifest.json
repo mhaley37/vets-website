@@ -1,0 +1,7 @@
+{
+  "appName": "A New App",
+  "entryFile": "./app-entry.jsx",
+  "entryName": "new-app-folder",
+  "rootUrl": "/new-app",
+  "productId": "e51bfc91-8e50-43e5-b6a3-d5c73aa1f796"
+}
